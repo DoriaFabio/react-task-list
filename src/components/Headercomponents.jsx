@@ -2,8 +2,8 @@ function HeaderComponent() {
     const title = "Task Manager";
   
     return (
-      <header>
-        <h4 className="mybg p-3 ">{title}</h4>
+      <header className="mybg">
+        <h4 className="p-3 container">{title}</h4>
       </header>
     );
   }

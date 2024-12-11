@@ -1,3 +1,7 @@
 .mybg {
   background-color: aquamarine;
 }
+
+.mymg, h6 {
+  margin-bottom: 0px;
+}
