@@ -3,7 +3,7 @@ function HeaderComponent() {
   
     return (
       <header className="mybg">
-        <h4 className="p-3 container">{title}</h4>
+        <h4 className="py-3 container fw-bold">{title}</h4>
       </header>
     );
   }

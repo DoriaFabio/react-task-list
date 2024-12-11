@@ -36,10 +36,10 @@ function App() {
     <>
       <HeaderComponents />
       <main className="container">
-          <h5>Current Tasks <span>{`(${incLength})`}</span></h5>
+          <h5 className="fw-bold">Current Tasks <span>{`(${incLength})`}</span></h5>
           {incomplete}
         <hr />
-        <h5>Completed Tasks <span>{`(${compLength})`}</span></h5>
+        <h5 className="fw-bold">Completed Tasks <span>{`(${compLength})`}</span></h5>
           {complete}
       </main>
     </>
