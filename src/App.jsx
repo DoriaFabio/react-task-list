@@ -35,7 +35,7 @@ function App() {
   return (
     <>
       <HeaderComponents />
-      <main className="container">
+      <main className="container-fluid">
           <h5 className="fw-bold">Current Tasks <span>{`(${incLength})`}</span></h5>
           {incomplete}
         <hr />
